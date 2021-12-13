@@ -22,15 +22,15 @@ body{
   display: flex;
 }
 .bar{
-  width: 50px;
-  height: 10px;
-  border: 2px solid #fff;
+  width: 60px;
+  height: 12px;
+  border: 2px solid rgb(0, 129, 180);
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
 }
 .bar:hover{
-  background:#fff;
+  background:rgb(255, 136, 0);
 }
 
 input[name="r"]{
