@@ -10,7 +10,7 @@ body{
 }
 .middle{
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -24,13 +24,13 @@ body{
 .bar{
   width: 60px;
   height: 12px;
-  border: 2px solid rgb(0, 129, 180);
+  border: 2px solid rgb(255, 255, 255);
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
 }
 .bar:hover{
-  background:rgb(255, 136, 0);
+  background:rgb(255, 255, 255);
 }
 
 input[name="r"]{
