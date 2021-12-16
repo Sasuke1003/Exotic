@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #c90606;
-			color: #4f84e6 !important;
+			box-shadow: inset 0 0 0 2px #000000;
+			color: #ffa1b1 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2224,9 +2224,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #000000;
 			box-shadow: none;
-			color: #127385 !important;
+			color: #666666 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2234,7 +2234,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #ffa1b1;
+				color: #000000 !important;
 			}
 
 /* Form */
@@ -4385,7 +4386,7 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		color: rgb(13, 67, 110);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.8rem;
